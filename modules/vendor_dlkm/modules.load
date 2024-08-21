@@ -61,7 +61,6 @@ btif_drv.ko
 connadp.ko
 mtk_gpu_qos.ko
 nvmem-mt635x-efuse.ko
-mt6358-accdet.ko
 adsp.ko
 audio_ipi.ko
 snd-soc-audiodsp-common.ko
@@ -116,7 +115,7 @@ main3af.ko
 subaf.ko
 sub2af.ko
 flashlight.ko
-flashlights-aw36515.ko
+ocp81375.ko
 trace_mmstat.ko
 mtk-pwm.ko
 mtk_irtx_pwm.ko
@@ -160,10 +159,9 @@ task_turbo.ko
 pmsr.ko
 spmtwam.ko
 mtk_disp_sec.ko
-transsion_touch.ko
-aw862xx_haptic.ko
-fs3xxx_haptic.ko
-nfc_i2c.ko
+adaptive-ts.ko
+gt9916_common.ko
+focaltech_ft3683g.ko
 transsion_resmonitor.ko
 transsion_tranlog.ko
 tran_perf_util.ko
@@ -172,7 +170,11 @@ tran_fre.ko
 lzo.ko
 lzo-rle.ko
 atomic_info.ko
+st21nfc.ko
 tnek.ko
+thd.ko
+trans_sched.ko
+elliptic-ultrasound.ko
+hiber.ko
 look_around.ko
 shrink_slabd.ko
-trans_sched.ko
